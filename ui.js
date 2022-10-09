@@ -3,11 +3,11 @@ const React = require('react');
 const { Box, Text } = require('ink');
 const axios = require('axios');
 
-const App = ({ name = 'oblivion' }) => {
+const App = ({ word = 'oblivion' }) => {
 	const [lexiconData, setlexiconData] = React.useState(null);
 
-	const lexicon = name => {
-		const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${name}`;
+	const lexicon = word => {
+		const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
 
 		return axios.get(url).then(response => response.data).then((data) => {
 
@@ -17,17 +17,12 @@ const App = ({ name = 'oblivion' }) => {
 	}
 
 	React.useEffect(() => {
-		lexicon(name).then(data => {
+		lexicon(word).then(data => {
 
 			setlexiconData(data)
 		})
 
-	}, [name]);
-
-
-
-
-
+	}, [word]);
 
 	return (
 		(lexiconData && (

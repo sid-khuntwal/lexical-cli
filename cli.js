@@ -9,13 +9,13 @@ const ui = importJsx('./ui');
 
 const cli = meow(`
 	Usage
-	  $ bookTree
+	  $ lexical-cli
 
 	Options
-		--word  Word To Search
+		--word  Word_To_Search
 
 	Examples
-	  $ bookTree --name=oblivion
+	  $ lexical-cli --name=oblivion
 	  Word : OBLIVION
 	  Definition: The state of forgetting completely, of being oblivious, unconscious, unaware, as when sleeping, drunk, or dead.To consign to oblivion; to efface utterly.
 	  Synonym: forgetness
