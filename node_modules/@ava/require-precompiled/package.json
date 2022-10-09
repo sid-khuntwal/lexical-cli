@@ -1,0 +1,40 @@
+{
+  "name": "@ava/require-precompiled",
+  "version": "1.0.0",
+  "description": "Require extension that allows for caching/precompiling",
+  "license": "MIT",
+  "repository": "avajs/require-precompiled",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "require",
+    "extension",
+    "cache",
+    "precompile"
+  ],
+  "devDependencies": {
+    "ava": "^3.2.0",
+    "fake-module-system": "^0.3.0",
+    "nyc": "^15.0.0",
+    "xo": "^0.25.3"
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "lcov",
+      "text"
+    ]
+  }
+}
