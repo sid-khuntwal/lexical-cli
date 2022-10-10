@@ -1,13 +1,10 @@
-
 # lexical-cli
 
 A Cli for dictionary. Seacrh meaning any word using Lexical-Cli.
 
-
 ## Demo
 
 ![Example Image](./assets/example-img.jpg)
-
 
 ## Installation
 
@@ -16,7 +13,7 @@ Install my-project with npm
 ```bash
 $ npm install --global lexical-cli
 ```
-    
+
 ## Usage
 
 ```javascript
@@ -34,7 +31,6 @@ $ npm install --global lexical-cli
 	  Antonym: resurrection
 ```
 
-
 ## Authors
 
 <div align="left"> 
@@ -42,11 +38,8 @@ $ npm install --global lexical-cli
 <tr align="left">
  <td>
 
-Siddharth Khuntwal
-
 <p align="center">
 <img src = "https://avatars.githubusercontent.com/u/76204320?v=4"  height="120" alt="Sid">
 </p>
-    <strong>ML Developer<strong>
+    <strong>Siddharth Khuntwal<strong>
 </td>
-
