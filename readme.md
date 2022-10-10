@@ -17,7 +17,7 @@ Install my-project with npm
 $ npm install --global lexical-cli
 ```
     
-## Usage/Examples
+## Usage
 
 ```javascript
  Usage
@@ -49,6 +49,4 @@ Siddharth Khuntwal
 </p>
     <strong>ML Developer<strong>
 </td>
-
-<td>
 
