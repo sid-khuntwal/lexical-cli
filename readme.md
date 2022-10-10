@@ -64,4 +64,4 @@ $ npm install --global lexical-cli
 [![Twitter](https://img.shields.io/badge/-Twitter-%231DA1F2.svg?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/siddlyf)](https://twitter.com/siddlyf)
 [![Instagram](https://img.shields.io/badge/-Instagram-red?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/sidlyf/)](https://www.instagram.com/sidlyf/)
 [![GitHub](https://img.shields.io/badge/-Github-%23100000.svg?&style=flat-square&logo=github&logoColor=white&link=https://github.com/sid-khuntwal)](https://github.com/sid-khuntwal)
-[![views](https://komarev.com/ghpvc/?username=codemistic&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/sid-khuntwal)
+[![views](https://komarev.com/ghpvc/?username=sid-khuntwal&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/sid-khuntwal)
