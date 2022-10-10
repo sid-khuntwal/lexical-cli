@@ -1,10 +1,24 @@
-# lexical-cli
+# Lexical-Cli
 
-A Cli for dictionary. Seacrh meaning any word using Lexical-Cli.
+How do you search for the meaning or synonyms or antonyms of any word?
+Google or maybe use a dictionary, Right? Now, what if you can do the same in your CLI?
+Yeah, Lexical-Cli makes this possible.
+
+Using Lexical CLI you can find meaning of any word in your cli itself. Lexical-Cli uses an open-source API to fetch the data, It is a react-ink based project.
+
+Have a look at the demo and usage below -
 
 ## Demo
 
 ![Example Image](./assets/example-img.jpg)
+
+## Steps to contribute in this repository
+
+    1. Fork this repo
+    2. Create a new folder/directory for your projects
+    3. Add useful code for the open-source community
+    4. Make pull request
+    5. Now, it time for review (Don't worry, our team we will review your Pull Request(PR) within few hours.
 
 ## Installation
 
@@ -17,7 +31,7 @@ $ npm install --global lexical-cli
 ## Usage
 
 ```javascript
- Usage
+ 	Usage
 	  $ lexical-cli
 
 	Options
@@ -25,6 +39,7 @@ $ npm install --global lexical-cli
 
 	Examples
 	  $ lexical-cli --name oblivion
+
 	  Word : OBLIVION
 	  Definition: The state of forgetting completely, of being oblivious, unconscious, unaware, as when sleeping, drunk, or dead.To consign to oblivion; to efface utterly.
 	  Synonym: forgetness
@@ -33,13 +48,20 @@ $ npm install --global lexical-cli
 
 ## Authors
 
-<div align="left"> 
-  <table>
-<tr align="left">
- <td>
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 200.0; height: 200.0">
+        <a href=https://www.linkedin.com/in/sidlyf>
+            <img src=https://avatars.githubusercontent.com/u/76204320?v=4 width="200;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt="Siddharth Khuntwal"/>
+            <br />
+            <sub style="font-size:14px"><b>Siddharth Khuntwal</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
 
-<p align="center">
-<img src = "https://avatars.githubusercontent.com/u/76204320?v=4"  height="120" alt="Sid">
-</p>
-    <strong>Siddharth Khuntwal<strong>
-</td>
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sidlyf/)](https://www.linkedin.com/in/sidlyf/)
+[![Twitter](https://img.shields.io/badge/-Twitter-%231DA1F2.svg?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/siddlyf)](https://twitter.com/siddlyf)
+[![Instagram](https://img.shields.io/badge/-Instagram-red?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/sidlyf/)](https://www.instagram.com/sidlyf/)
+[![GitHub](https://img.shields.io/badge/-Github-%23100000.svg?&style=flat-square&logo=github&logoColor=white&link=https://github.com/sid-khuntwal)](https://github.com/sid-khuntwal)
+[![views](https://komarev.com/ghpvc/?username=codemistic&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/sid-khuntwal)
