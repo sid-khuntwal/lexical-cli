@@ -1,20 +1,25 @@
+
 # lexical-cli
 
-> A Cli for dictionary. Seacrh meaning any word using Lexical-Cli.
+A Cli for dictionary. Seacrh meaning any word using Lexical-Cli.
+
+
+## Demo
 
 ![Example Image](./assets/example-img.jpg)
 
-## Install
+
+## Installation
+
+Install my-project with npm
 
 ```bash
 $ npm install --global lexical-cli
 ```
+    
+## Usage
 
-## CLI
-
-```
-$ lexical-cli --help
-
+```javascript
  Usage
 	  $ lexical-cli
 
@@ -28,3 +33,20 @@ $ lexical-cli --help
 	  Synonym: forgetness
 	  Antonym: resurrection
 ```
+
+
+## Authors
+
+<div align="left"> 
+  <table>
+<tr align="left">
+ <td>
+
+Siddharth Khuntwal
+
+<p align="center">
+<img src = "https://avatars.githubusercontent.com/u/76204320?v=4"  height="120" alt="Sid">
+</p>
+    <strong>ML Developer<strong>
+</td>
+
