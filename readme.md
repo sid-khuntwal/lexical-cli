@@ -1,5 +1,15 @@
 # Lexical-Cli
 
+[![NPM Package](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/lexical-cli)
+![Technology](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![NPM Total Downloads](https://img.shields.io/npm/dt/lexical-cli?label=Total%20Downloads&style=for-the-badge)
+![Github Repo Size](https://img.shields.io/github/repo-size/sid-khuntwal/lexical-cli-hacktoberfest?style=for-the-badge)
+![Total Forks](https://img.shields.io/github/forks/sid-khuntwal/lexical-cli-hacktoberfest?style=for-the-badge)
+![NPM Package Version](https://img.shields.io/npm/v/lexical-cli?style=for-the-badge)
+![Hacktoberfest](https://img.shields.io/github/hacktoberfest/2022/sid-khuntwal/lexical-cli-hacktoberfest?style=for-the-badge)
+![Contributors](https://img.shields.io/github/contributors/sid-khuntwal/lexical-cli-hacktoberfest?style=for-the-badge)
+
+
 How do you search for the meaning or synonyms or antonyms of any word?
 Google or maybe use a dictionary, Right? Now, what if you can do the same in your CLI?
 Yeah, Lexical-Cli makes this possible.
