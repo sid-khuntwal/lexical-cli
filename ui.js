@@ -3,30 +3,29 @@ const React = require('react');
 const { Box, Text } = require('ink');
 const axios = require('axios');
 
-const App = ({ word = 'oblivion' }) => {
+const App = (word) => {
 	const [lexiconData, setlexiconData] = React.useState(null);
 
-	const lexicon = word => {
-		const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+	const lexicon = (word) => {
+		const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word.name}`;
 
-		return axios.get(url).then(response => response.data).then((data) => {
-
-			return data[0];
-
-		})
-	}
+		return axios
+			.get(url)
+			.then((response) => response.data)
+			.then((data) => {
+				return data[0];
+			});
+	};
 
 	React.useEffect(() => {
-		lexicon(word).then(data => {
-
-			setlexiconData(data)
-		})
-
+		lexicon(word).then((data) => {
+			setlexiconData(data);
+		});
 	}, [word]);
 
 	return (
 		(lexiconData && (
-			< Box >
+			<Box>
 				<Text>
 					<Text color="yellowBright">Word:</Text>{" "}
 					<Text bold color="magentaBright">
@@ -35,7 +34,9 @@ const App = ({ word = 'oblivion' }) => {
 					{"\n"}
 					<Text color="yellowBright">Definition:</Text>{" "}
 					<Text color="greenBright" bold>
-						{lexiconData?.meanings.map((meanings) => meanings.definitions[0].definition)}
+						{lexiconData?.meanings.map(
+							(meanings) => meanings.definitions[0].definition
+						)}
 					</Text>
 					{"\n"}
 					<Text color="yellowBright">Synonym:</Text>{" "}
@@ -48,7 +49,7 @@ const App = ({ word = 'oblivion' }) => {
 						{lexiconData?.meanings.map((meanings) => meanings.antonyms[0])}
 					</Text>
 				</Text>
-			</Box >
+			</Box>
 		)) || <Text>Loading...</Text>
 	);
 };
