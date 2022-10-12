@@ -6,7 +6,7 @@ const axios = require('axios');
 const App = ({ word = 'oblivion' }) => {
 	const [lexiconData, setlexiconData] = React.useState(null);
 
-	const lexicon = (word) => {
+	const lexicon = word => {
 		const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
 
 		return axios
