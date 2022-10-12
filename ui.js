@@ -3,11 +3,11 @@ const React = require('react');
 const { Box, Text } = require('ink');
 const axios = require('axios');
 
-const App = (word) => {
+const App = ({ word = 'oblivion' }) => {
 	const [lexiconData, setlexiconData] = React.useState(null);
 
 	const lexicon = (word) => {
-		const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word.name}`;
+		const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
 
 		return axios
 			.get(url)
