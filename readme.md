@@ -9,7 +9,6 @@
 ![Hacktoberfest](https://img.shields.io/github/hacktoberfest/2022/sid-khuntwal/lexical-cli-hacktoberfest?style=for-the-badge)
 ![Contributors](https://img.shields.io/github/contributors/sid-khuntwal/lexical-cli-hacktoberfest?style=for-the-badge)
 
-
 How do you search for the meaning or synonyms or antonyms of any word?
 Google or maybe use a dictionary, Right? Now, what if you can do the same in your CLI?
 Yeah, Lexical-Cli makes this possible.
@@ -48,7 +47,7 @@ $ npm install --global lexical-cli
 		--word  <Word_To_Search>
 
 	Examples
-	  $ lexical-cli --name oblivion
+	  $ lexical-cli --word oblivion
 
 	  Word : OBLIVION
 	  Definition: The state of forgetting completely, of being oblivious, unconscious, unaware, as when sleeping, drunk, or dead.To consign to oblivion; to efface utterly.
